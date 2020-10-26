@@ -1,5 +1,4 @@
-import sha256 from 'js-sha256';
-
+import { sha256 } from 'js-sha256';
 import Block from './block';
 
 interface TransactionData {
